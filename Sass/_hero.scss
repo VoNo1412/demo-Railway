@@ -1,0 +1,129 @@
+section {
+    position: relative;
+    overflow: hidden;
+
+    .hero {
+        margin-top: 116px;
+        margin-bottom: 130px;
+        display: flex;
+        justify-content: space-between;
+
+        &-heading {
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 80px;
+        }
+        
+        &-content {
+            width: 54%;
+            margin-top: 60px;
+        }
+    
+        &-text {
+            padding: 45px 0 50px;
+        }
+    
+        &-btn {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 24px;
+            display: inline-block;
+            padding: 20px 24px;
+            border-radius: 10px;
+            background-color: #853bce;
+            cursor: pointer;
+            transition: background-color .1s linear;
+
+            &:hover {
+                background-color: #a667e4;
+            }
+        }
+    
+        &-image {
+            display: flex;
+
+            :first-child {
+                position: absolute;
+                top: 50%;
+                left: 28%;
+                max-width: 489px;
+                height: 303px;
+
+            }
+    
+            :last-child {
+               position: absolute;
+               right: -3.33%;
+               max-width: 691px;
+               height: 568px;
+            }
+        }
+      
+    }
+}
+
+@media (max-width: 1023px) {
+    section {
+       .hero {
+            padding-left: 30px;
+
+            &-image {
+                display: none;
+            }
+
+            &-heading {
+                font-size: 46px;
+            }
+
+            &-content {
+                width: 70%;
+            }
+
+            &-btn {
+                padding: 14px 24px;
+                border-radius: 6px;
+            }
+       }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    section {
+        .hero {
+            &-content {
+                // width: 50%;
+                position: relative;
+                z-index: 3;
+            }
+
+            &-text {
+                text-shadow: 1px 1px 1px dimgrey;
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    section {
+        .hero {
+            // display: block;
+            padding-left: 0;
+            margin-top: 100px;
+
+            &-content {
+                width: 90%;
+                position: relative;
+                z-index: 3;
+            }
+
+            &-heading {
+                font-size: 34px;
+                line-height: 50px;
+            }
+
+            &-text {
+                text-shadow: 1px 1px 1px dimgrey;
+            }
+        }
+    }
+}

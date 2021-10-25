@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background: linear-gradient(to right, #13111c 60%, #2d1128);
+    color: #fff;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 10px;
+}
