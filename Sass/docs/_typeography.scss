@@ -2,10 +2,11 @@
     color: #fff;
 }
 
-.search {
-    border: 1px solid #2C2F35;
-    color: #41454E;
+.docs {
+    border: 1px solid #2c2f35;
+    background: #131415;
 }
+
 
 .menu .activeJS {
     border-right: 2px solid #C049FF;
@@ -20,6 +21,10 @@
         background-color: #1D1B22;
         color: #fafbfc;
     }
+}
+
+.headerJS {
+    background: #131415;
 }
 
 .catalogy {
@@ -38,6 +43,12 @@
     line-height: 36px;
 }
 
+.heading-sm {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
 .btn--primary {
     background-color: #9519e2;
     padding: 8px 20px;
@@ -46,3 +57,38 @@
         background-color: $text-purple;
     }
 }
+
+.icons {
+    border: 1px solid #7210af;
+    background: transparent;
+}
+
+.menu .gitsb {
+    color: #EAC3FF;
+}
+
+.menu__items {
+    border: 1px solid #1d1b22;
+
+    &:hover {
+        background-color: #1d1b22;
+        border: transparent;
+        box-shadow: 0 0 0 0 #000;
+    }
+}
+
+.menu .railway {
+    color: #fff;
+}
+
+.githubss {
+    background-color: #1d1b22;
+    color: #fff;
+}
+
+.search {
+    border: 1px solid #2C2F35;
+    color: #41454E;
+    background-color: #131415;
+}
+

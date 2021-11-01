@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,35 @@
     <link rel="stylesheet" href="./CSS/docs.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../themify-icons/themify-icons.css">
 
 </head>
+
 <body>
     <div class="main">
         <div class="menu">
+            <div class="mobile">
+                <div class="menu-header">
+                    <div class="menu-logo">
+                        <div class="menu-img">
+                            <img src="https://image.shutterstock.com/z/stock-vector-triangle-and-circle-logo-vector-344624207.jpg"
+                                alt="">
+                        </div>
+
+                        <div class="menu-rail">Railway</div>
+                    </div>
+
+                    <div class="hamburger">
+                        <i class="ti ti-menu-alt"></i>
+                    </div>
+
+                    <div class="menu-icon">
+                        <i class="ti ti-apple apple"></i>
+                    </div>
+                </div>
+            </div>
             <div class="menu-docs">
                 <div class="menu-header">
                     <div class="menu-logo">
@@ -22,14 +45,19 @@
                             <img src="https://image.shutterstock.com/z/stock-vector-triangle-and-circle-logo-vector-344624207.jpg"
                                 alt="">
                         </div>
-    
+
                         <div class="menu-rail">Railway</div>
                     </div>
+
+                    <div class="hamburger">
+                        <i class="ti ti-menu-alt"></i>
+                    </div>
+
                     <div class="menu-icon">
-                        <i class="ti ti-apple"></i>
+                        <i class="ti ti-apple apple"></i>
                     </div>
                 </div>
-                
+
                 <div class="deed"></div>
 
                 <div class="menu-search">
@@ -96,14 +124,18 @@
                 </div>
             </div>
             <div class="menu-main">
-                <a href="#" class="menu-login">Login -></a>
+                <div class="menu__login">
+                    <a href="#" class="logins">Login -></a>
+                </div>
                 <div class="container">
-                    <div class="menu-content">
-                        <div class="menu-intro heading-lg">Introduction</div>
-                        <div class="menu-table">
+                    <div class="menu__content">
+                        <div class="menu__intro heading-lg">Introduction</div>
+                        <div class="menu__table">
                             <div class="heading-md">Quickstart Guide</div>
                             <p class="text--primary">
-                                A short guide on making your first deploy on Railway in a couple of minutes.
+                                A short guide on making your first deploy on Railway in a couple
+                                of
+                                minutes.
                             </p>
                             <div class="btn btn--primary">
                                 <i class="ti ti-arrow-right"></i>
@@ -111,11 +143,96 @@
                             </div>
                         </div>
                     </div>
+
+                    <ul class="menu__list">
+                        <a href="#" class="menu__item">
+                            <div class="menu__icons">
+                                <i class="ti ti-github"></i>
+                            </div>
+                            <div class="menu__info">
+                                <div class="heading-sm">Starters</div>
+                                <p class="text text--secondary">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="menu__item">
+                            <div class="menu__icons">
+                                <i class="ti ti-github"></i>
+                            </div>
+                            <div class="menu__info">
+                                <div class="heading-sm">Language Specific Apps</div>
+                                <p class="text text--secondary">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="menu__item">
+                            <div class="menu__icons">
+                                <i class="ti ti-github"></i>
+                            </div>
+                            <div class="menu__info">
+                                <div class="heading-sm">Variables</div>
+                                <p class="text text--secondary">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="menu__item">
+                            <div class="menu__icons">
+                                <i class="ti ti-github"></i>
+                            </div>
+                            <div class="menu__info">
+                                <div class="heading-sm">Guides</div>
+                                <p class="text text--secondary">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </a>
+                    </ul>
+
+                    <div class="menu-contact">
+                        <div class="menu-github">
+                            <div class="menu-git">
+                                <span><i class="ti ti-github git"></i></span>
+                                <h3>Contributing</h3>
+                            </div>
+                            <p class="menu-decs">
+                                Each page footer contains an "Edit on GitHub" Link. Make a pull
+                                request, and we'll merge it!
+                            </p>
+                            <a href="#" class="menu__link--primary">
+                                Docs Respository
+                                <i class="ti ti-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="menu-social">
+                            <a href="#" class="items menu-discord">
+                                <i class="ti ti-youtube"></i>
+                                Join our Discord Server
+                                <i class="ti ti-arrow-right"></i>
+                            </a>
+                            <a href="#" class="items menu-discord">
+                                <i class="ti ti-apple"></i>
+                                Check out the Changelog
+                                <i class="ti ti-arrow-right"></i>
+                            </a>
+                            <a href="#" class="items menu-discord">
+                                <i class="ti ti-twitter"></i>
+                                Follow Us on Twitter
+                                <i class="ti ti-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <script src="./JS/docs.js"></script>
+        <script src="./JS/docs.js"></script>
+        <script src="./JS/main.js"></script>
 </body>
+
 </html>
