@@ -1,0 +1,48 @@
+.railway {
+    color: #fff;
+}
+
+.search {
+    border: 1px solid #2C2F35;
+    color: #41454E;
+}
+
+.menu .activeJS {
+    border-right: 2px solid #C049FF;
+    background: #52097c;
+    color:#F8ECFF;
+}
+
+.item {
+    color: #B1B6BE;
+
+    &:hover {
+        background-color: #1D1B22;
+        color: #fafbfc;
+    }
+}
+
+.catalogy {
+    color: #fff;
+}
+
+.heading-lg {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.heading-md {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.btn--primary {
+    background-color: #9519e2;
+    padding: 8px 20px;
+
+    &:hover {
+        background-color: $text-purple;
+    }
+}

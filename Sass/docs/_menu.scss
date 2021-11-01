@@ -1,0 +1,142 @@
+.menu {    
+    display: flex;
+
+    &-docs {
+        border-right: 1px solid #d6d8dc;
+        max-width: 250px;  
+        flex-shrink: 1;
+    }
+    
+    &-header {
+        padding: 14px 8px;
+        position: fixed;
+        background-color: #fff;
+        z-index: 99;
+        left: 0;
+        width: 240px;
+        @include flexBox;
+    }
+
+    &-logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    &-img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        overflow: hidden;
+    }
+    
+    &-rail {
+        color: #000;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0 10px;
+    }
+
+    &-search {
+        margin: 0 10px 0;
+        padding-top: 70px;
+        border: 1px solid $gray-500;
+        color: $gray-500;
+        border-radius: 4px;
+        padding: 4px 0 4px 10px;
+        font-size: 16px;
+        transition: border .01s linear;
+        
+        &:hover {
+            cursor: pointer;
+            border: 1px solid $text-purple;
+        }
+    }
+
+    &-list {
+        padding: 20px 0;
+    }
+
+    &-catalogy {
+       padding: 0 14px;
+       color: #000;
+       font-weight: bold;
+       font-size: 14px;
+       opacity: 0.9;
+       margin: 20px 0 14px 0;
+    }
+
+    &-link, .actives {
+        display: block;
+        padding: 8px 14px;
+        font-size: 15px;
+        color: #5d6168;
+        text-transform: capitalize;
+    }
+
+    &-link {
+        transition: background .1s linear;
+
+        &:hover {
+            background: rgba(226, 223, 223, 0.877);
+        }
+    }
+
+    .actives {
+        border-right: 2px solid $text-purple;
+        background: #f8ecff;
+        color:#8b51a9;
+    }
+
+    .deed {
+        padding-top: 70px;
+    }
+
+    &-main {
+        flex: 1;
+        padding: 20px 0;
+    }
+
+    &-login {
+        display: block;
+        color: #8D94A0;
+        text-align: right;
+        padding: 0 50px;
+        margin-bottom: 34px;
+        transition: color .1s linear;
+
+        &:hover {
+            color: #C049FF;
+        }
+    }
+
+    .container {
+        max-width: 900px;
+        padding: 32px;  
+    }
+
+    &-table {
+        position: relative;
+        margin-top: 40px;
+        padding: 52px 0 49px 45px;
+        background-color: #0cbaba;
+        background: linear-gradient(
+        83.84deg, rgba(149, 203, 233, 0.9) -3.34%, rgba(71, 201, 242, 0.133) 35.77%), linear-gradient(
+        101.71deg, rgba(227, 167, 228, 0.047) 46.42%, rgba(238, 96, 215, 0.8) 94.51%), linear-gradient(
+        149.12deg, rgb(51, 8, 173) 13.67%, rgba(51, 8, 173, 0) 86.42%);
+        color: #fff;
+        border-radius: 12px;
+        @include flexBox(column, flex-start);
+    }
+
+    &-image {
+        position: absolute;
+        right: 0;   
+    }
+
+    .text--primary {
+        padding: 30px 0 54px;
+        font-size: 20px;
+        line-height: 28px;
+        max-width: 450px;
+    }
+}

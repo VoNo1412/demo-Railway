@@ -1,0 +1,50 @@
+.footer {
+    margin-top: 100px;
+    background-color: #111827;
+
+    &-main {
+        padding: 20px 0;
+        @include flexBox;
+    }
+    
+    &-logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    &-img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        overflow: hidden;
+    }
+    
+    &-rail {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    &-link {
+        color: $gray-color;
+        outline: none;
+        font-size: 18px;
+        transition: color .1s linear;
+        padding: 0 12px;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    @include maxWidth(1023px) {
+        &-main {
+            padding: 30px 10px;
+        }
+    }
+
+    @include maxWidth(767px) {
+        margin-top: 40px;
+    }
+}

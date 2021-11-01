@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  background: #fff;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.container {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 10px;
+}
+
+.btn {
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  text-align: center;
+  line-height: 28px;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  transition: all 0.1s linear;
+  cursor: pointer;
+  gap: 0 10px;
+}
+
+input[type=text] {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  background: #f1f1f1;
+  color: #000;
+  opacity: 0.9;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-color: transparent;
+  outline: none;
+  width: 90%;
+}
+
+i {
+  font-size: 17px;
+  display: inline-block;
+}
+
+.menu {
+  display: flex;
+}
+.menu-docs {
+  border-right: 1px solid #d6d8dc;
+  max-width: 250px;
+  flex-shrink: 1;
+}
+.menu-header {
+  padding: 14px 8px;
+  position: fixed;
+  background-color: #fff;
+  z-index: 99;
+  left: 0;
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-logo {
+  display: flex;
+  align-items: center;
+}
+.menu-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.menu-rail {
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+.menu-search {
+  margin: 0 10px 0;
+  padding-top: 70px;
+  border: 1px solid #b8bdc4;
+  color: #b8bdc4;
+  border-radius: 4px;
+  padding: 4px 0 4px 10px;
+  font-size: 16px;
+  transition: border 0.01s linear;
+}
+.menu-search:hover {
+  cursor: pointer;
+  border: 1px solid #c049ff;
+}
+.menu-list {
+  padding: 20px 0;
+}
+.menu-catalogy {
+  padding: 0 14px;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  opacity: 0.9;
+  margin: 20px 0 14px 0;
+}
+.menu-link, .menu .actives {
+  display: block;
+  padding: 8px 14px;
+  font-size: 15px;
+  color: #5d6168;
+  text-transform: capitalize;
+}
+.menu-link {
+  transition: background 0.1s linear;
+}
+.menu-link:hover {
+  background: rgba(226, 223, 223, 0.877);
+}
+.menu .actives {
+  border-right: 2px solid #c049ff;
+  background: #f8ecff;
+  color: #8b51a9;
+}
+.menu .deed {
+  padding-top: 70px;
+}
+.menu-main {
+  flex: 1;
+  padding: 20px 0;
+}
+.menu-login {
+  display: block;
+  color: #8D94A0;
+  text-align: right;
+  padding: 0 50px;
+  margin-bottom: 34px;
+  transition: color 0.1s linear;
+}
+.menu-login:hover {
+  color: #C049FF;
+}
+.menu .container {
+  max-width: 900px;
+  padding: 32px;
+}
+.menu-table {
+  position: relative;
+  margin-top: 40px;
+  padding: 52px 0 49px 45px;
+  background-color: #0cbaba;
+  background: linear-gradient(83.84deg, rgba(149, 203, 233, 0.9) -3.34%, rgba(71, 201, 242, 0.133) 35.77%), linear-gradient(101.71deg, rgba(227, 167, 228, 0.047) 46.42%, rgba(238, 96, 215, 0.8) 94.51%), linear-gradient(149.12deg, #3308ad 13.67%, rgba(51, 8, 173, 0) 86.42%);
+  color: #fff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.menu-image {
+  position: absolute;
+  right: 0;
+}
+.menu .text--primary {
+  padding: 30px 0 54px;
+  font-size: 20px;
+  line-height: 28px;
+  max-width: 450px;
+}
+
+.railway {
+  color: #fff;
+}
+
+.search {
+  border: 1px solid #2C2F35;
+  color: #41454E;
+}
+
+.menu .activeJS {
+  border-right: 2px solid #C049FF;
+  background: #52097c;
+  color: #F8ECFF;
+}
+
+.item {
+  color: #B1B6BE;
+}
+.item:hover {
+  background-color: #1D1B22;
+  color: #fafbfc;
+}
+
+.catalogy {
+  color: #fff;
+}
+
+.heading-lg {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.heading-md {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.btn--primary {
+  background-color: #9519e2;
+  padding: 8px 20px;
+}
+.btn--primary:hover {
+  background-color: #c049ff;
+}
+
+/*# sourceMappingURL=docs.css.map */

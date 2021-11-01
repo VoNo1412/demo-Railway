@@ -1,0 +1,48 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background: $primary-color;
+    color: #fff;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.container {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 10px;
+}
+
+
+.heading-lg {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.heading-md {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+}
+

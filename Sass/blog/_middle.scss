@@ -1,0 +1,74 @@
+.middle {
+    &-heading {
+        padding: 100px 0;
+        text-align: center;
+    }
+
+    &-item {
+        @include flexBox;
+        gap: 0 70px;
+        padding: 24px 0;
+    }
+
+    &-img {
+        max-width: 456px;
+    }
+
+    &-decs {
+        font-size: 18px;
+        line-height: 30px;
+        color: $text-light;
+        padding: 16px 20px 16px 0;
+    }
+
+    &-date {
+        color: $text-gray-small;
+        font-size: 16px;
+    }
+
+    @include maxWidth(1023px) {
+        &-main {
+            padding: 0 10px;
+        }
+
+        &-heading {
+            padding: 80px 0;
+            font-size: 46px;
+            line-height: 30px;
+        }
+
+        &-title {
+            font-size: 28px;
+            line-height: 36px;
+        }
+
+        &-decs {
+            font-size: 15px;
+            line-height: 25px;
+        }
+
+        &-img {
+            max-width: 360px;
+        }
+    }
+
+    
+    @include maxWidth(767px) {
+        &-main {
+            padding: 0;
+        }
+
+        &-heading {
+            padding: 50px 0;
+            font-size: 32px;
+        }
+
+        &-title {
+            padding-top: 12px;
+        }
+
+        &-item {
+            @include flexBox(column)
+        }
+    }
+}
