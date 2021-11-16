@@ -1,0 +1,42 @@
+.hero {
+    &-main {
+        padding: 110px 0;
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &-heading {
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 80px;
+    }
+
+    &-desc {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    @include maxWidth(1023px) {
+        &-heading {
+            font-size: 48px;
+        }
+
+        &-main {
+            padding: 70px 0;
+        }
+
+    }
+
+    @include maxWidth(767px) {
+        &-heading {
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        &-desc {
+            font-size: 18px;
+            line-height: 24px;
+        }
+    }
+}

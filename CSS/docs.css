@@ -93,7 +93,6 @@ i {
 .menu-header {
   padding: 14px 8px;
   position: fixed;
-  background-color: #fff;
   z-index: 99;
   left: 0;
   width: 249px;
@@ -407,6 +406,7 @@ i {
 }
 
 .headerJS {
+  border: 1px solid transparent;
   background: #131415;
 }
 
@@ -470,6 +470,10 @@ i {
 .search {
   border: 1px solid #2C2F35;
   color: #41454E;
+  background-color: #131415;
+}
+
+.bg-black {
   background-color: #131415;
 }
 

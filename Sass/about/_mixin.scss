@@ -1,0 +1,18 @@
+@mixin flexBox($direc: row, $align: center, $justify: space-between) {
+    display: flex;
+    flex-direction: $direc;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+@mixin maxWidth($breakpoints) {
+    @media (max-width: $breakpoints) {
+        @content;
+    }
+}
+
+@mixin minWidth($breakpoints) {
+    @media (min-width: $breakpoints) {
+        @content;
+    }
+}

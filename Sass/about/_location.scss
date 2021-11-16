@@ -1,0 +1,63 @@
+.location {
+    &-main {
+        padding: 70px 0;
+        border-bottom: 1px solid rgba(33, 31, 45, 1);
+    }
+
+    &-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+        padding: 45px 0;
+    }
+
+    &-content {
+        max-width: 450px;
+        height: auto;
+    }
+
+    &-img {
+        flex-shrink: 1;
+        position: relative;
+    }
+
+    .img--drive {
+        &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background-color: rgba(33, 31, 45, 1);
+            left: 0;
+            bottom: -50px;
+
+        }
+    }
+
+
+    &-heading {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    &-desc {
+        font-size: 18px;
+        line-height: 27px;
+        padding: 20px 0;
+    }
+
+    @include maxWidth(767px) {
+        &-main {
+            padding: 50px 0;
+        }
+
+        &-item {
+            padding: 35px 0;
+            flex-direction: column;
+        }
+        
+    }
+}

@@ -5,9 +5,9 @@
 }
 
 body {
+    background-color: #13111c;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
-    background: linear-gradient(to right, #13111c 60%, #2d1128);
     color: #fff;
 }
 
@@ -38,3 +38,8 @@ img {
     padding: 0 10px;
 }
 
+
+.join,
+.footer {
+    display: none;
+}

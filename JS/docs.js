@@ -15,7 +15,7 @@ function change(color, grade) {
             document.body.style.background = "#fff";
             document.querySelector(color).classList.remove(grade);
         }
-    })
+    });
 }
 
 function change2(color, grade) {
@@ -53,8 +53,9 @@ change(".menu__intro", "railway");
 change(".menu-github", "githubss");
 change(".menu-list", "headerJS");
 change(".deed", "headerJS");
-change(".menu-header", "headerJS");
+change(".menu-header", "bg-black");
 
+change2(".menu-catalogy", "railway");
 change2(".menu-discord", "railway");
 change2(".menu-link", "item");
 change2(".catalogy", "catalogy");

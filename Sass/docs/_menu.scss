@@ -19,7 +19,7 @@
     &-header {
         padding: 14px 8px;
         position: fixed;
-        background-color: #fff;
+        // background-color: #fff;
         z-index: 99;
         left: 0;
         width: 249px;
@@ -255,7 +255,7 @@
         font-size: 15px;
         color: #000;
     }
-
+    
     @media (min-width: 768px) and (max-width: 1279px) {
         &-list {
             :nth-child(4), :nth-child(5), :nth-child(6) {
